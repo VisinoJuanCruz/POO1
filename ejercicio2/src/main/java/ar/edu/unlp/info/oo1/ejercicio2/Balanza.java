@@ -1,33 +1,45 @@
 package ar.edu.unlp.info.oo1.ejercicio2;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Balanza {
 
-	private int cantidadDeProductos = 0;
-	private double precioTotal = 0;
-	private double pesoTotal = 0;
+	
+	
+	private List<Producto> productos = new ArrayList<Producto>();
+	
 	
 	public void ponerEnCero() {
-		this.cantidadDeProductos = 0;
-		this.precioTotal = 0;
-		this.pesoTotal = 0;
+			this.productos.clear();
 	}
 	
 	public int getCantidadDeProductos() {
-		return this.cantidadDeProductos;
+		return this.productos.size();
 	}
 	
 	public double getPrecioTotal() {
-		return this.precioTotal;
+		double precioTotal = 0;
+		for(Producto producto: getProductos()) {
+			precioTotal += producto.getPrecio();
+		}
+		return precioTotal;
 	}
 	
 	public double getPesoTotal() {
-		return this.pesoTotal;
+		double pesoTotal = 0;
+		for(Producto producto: getProductos()) {
+			pesoTotal += producto.getPeso();
+		}
+		return pesoTotal;
+	}
+	
+	public List<Producto> getProductos(){
+		return productos;
 	}
 	
 	public void agregarProducto(Producto producto) {
-		this.cantidadDeProductos++;
-		this.precioTotal = getPrecioTotal() + producto.getPeso() * producto.getPrecioPorKilo();
-		this.pesoTotal = getPesoTotal() + producto.getPeso();
+		this.productos.add(producto);
+		
 	}
 
 	public Ticket emitirTicket() {

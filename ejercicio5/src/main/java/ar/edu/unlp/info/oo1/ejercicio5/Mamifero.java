@@ -105,5 +105,37 @@ public class Mamifero {
 		
 	}
 	
+	private boolean buscoAncestroDirecto(Mamifero pariente) {
+		if(getPadre() != null) {
+			if(getPadre().getIdentificador() == pariente.getIdentificador()) {
+				return true;
+			}
+		}
+		if(getMadre() != null) {
+			if(getMadre().getIdentificador() == pariente.getIdentificador()) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	
+	public boolean tieneComoAncestroA(Mamifero pariente) {
+		boolean encontroPariente = buscoAncestroDirecto(pariente);
+		if(!encontroPariente) {
+			if(getPadre() != null) {
+				getPadre().tieneComoAncestroA(pariente);
+			}else {
+				if(getMadre() != null) {
+					getMadre().tieneComoAncestroA(pariente);
+				}
+			}
+		}
+		return encontroPariente;
+		
+		
+	}
+
+	
 	
 }

@@ -25,6 +25,7 @@ public class Mamifero {
 		this.identificador = newIdentificador;
 		return this;
 	}
+	
 	public String getIdentificador() {
 		return this.identificador;
 	}
@@ -105,37 +106,24 @@ public class Mamifero {
 		
 	}
 	
-	private boolean buscoAncestroDirecto(Mamifero pariente) {
-		if(getPadre() != null) {
-			if(getPadre().getIdentificador() == pariente.getIdentificador()) {
-				return true;
-			}
-		}
-		if(getMadre() != null) {
-			if(getMadre().getIdentificador() == pariente.getIdentificador()) {
-				return true;
-			}
-		}
-		return false;
-	}
-	
-	
 	public boolean tieneComoAncestroA(Mamifero pariente) {
-		boolean encontroPariente = buscoAncestroDirecto(pariente);
-		if(!encontroPariente) {
-			if(getPadre() != null) {
-				getPadre().tieneComoAncestroA(pariente);
-			}else {
-				if(getMadre() != null) {
-					getMadre().tieneComoAncestroA(pariente);
+		boolean esAncestro= false;
+		if(getPadre() != null){
+				esAncestro = getPadre().getIdentificador() == pariente.getIdentificador();
+				if(!esAncestro) {
+					esAncestro = getPadre().tieneComoAncestroA(pariente);
+				}
+			}
+		if(!esAncestro) {
+			if(getMadre() != null) {
+				esAncestro = getMadre().getIdentificador() == pariente.getIdentificador();
+				if(!esAncestro) {
+					esAncestro =  getMadre().tieneComoAncestroA(pariente);
 				}
 			}
 		}
-		return encontroPariente;
-		
-		
+		return esAncestro;
 	}
-
 	
 	
 }

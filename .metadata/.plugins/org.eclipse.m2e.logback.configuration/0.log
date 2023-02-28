@@ -1534,3 +1534,36 @@
 2023-02-27 14:20:03,534 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/main/resources
 2023-02-27 14:20:03,536 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-02-27 14:20:03,536 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/test/resources
+2023-02-28 15:18:55,534 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-02-28 15:19:08,496 [Worker-7: Launching FarolaTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 15:19:08,496 [Worker-7: Launching FarolaTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/main/resources
+2023-02-28 15:19:08,498 [Worker-7: Launching FarolaTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 15:19:08,498 [Worker-7: Launching FarolaTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/test/resources
+2023-02-28 15:19:09,006 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 15:19:09,006 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio5/src/main/resources
+2023-02-28 15:19:09,007 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 15:19:09,008 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio5/src/test/resources
+2023-02-28 15:22:01,246 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 15:22:01,246 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/main/resources
+2023-02-28 15:22:01,249 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 15:22:01,249 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/test/resources
+2023-02-28 15:22:18,527 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 15:22:18,527 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/main/resources
+2023-02-28 15:22:18,528 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 15:22:18,528 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/test/resources
+2023-02-28 15:23:52,654 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 15:23:52,655 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/main/resources
+2023-02-28 15:23:52,656 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 15:23:52,656 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/test/resources
+2023-02-28 15:49:49,106 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 15:49:49,107 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/main/resources
+2023-02-28 15:49:49,108 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 15:49:49,108 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/test/resources
+2023-02-28 15:52:52,362 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 15:52:52,362 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/main/resources
+2023-02-28 15:52:52,363 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 15:52:52,363 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/test/resources
+2023-02-28 16:01:18,962 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 16:01:18,962 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/main/resources
+2023-02-28 16:01:18,966 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-02-28 16:01:18,967 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/test/resources

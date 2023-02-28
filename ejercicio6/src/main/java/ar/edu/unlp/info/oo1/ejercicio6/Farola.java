@@ -1,5 +1,6 @@
 package ar.edu.unlp.info.oo1.ejercicio6;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Farola {

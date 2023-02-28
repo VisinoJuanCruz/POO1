@@ -1262,3 +1262,15 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-02-28 16:11:10.433
+!MESSAGE The metadata /home/visino/.m2/repository/ar/edu/unlp/info/oo1/objetos-uno/0.0.1-SNAPSHOT/maven-metadata-objetos-uno-repo.xml is invalid: only whitespace content allowed before start tag and not P (position: START_DOCUMENT seen P... @1:1) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-02-28 16:11:10.437
+!MESSAGE The metadata /home/visino/.m2/repository/ar/edu/unlp/info/oo1/objetos-uno/0.0.1-SNAPSHOT/maven-metadata-objetos-uno-repo.xml is invalid: only whitespace content allowed before start tag and not P (position: START_DOCUMENT seen P... @1:1) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-02-28 16:11:30.378
+!MESSAGE The metadata /home/visino/.m2/repository/ar/edu/unlp/info/oo1/objetos-uno/0.0.1-SNAPSHOT/maven-metadata-objetos-uno-repo.xml is invalid: only whitespace content allowed before start tag and not P (position: START_DOCUMENT seen P... @1:1) 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-02-28 16:11:30.381
+!MESSAGE The metadata /home/visino/.m2/repository/ar/edu/unlp/info/oo1/objetos-uno/0.0.1-SNAPSHOT/maven-metadata-objetos-uno-repo.xml is invalid: only whitespace content allowed before start tag and not P (position: START_DOCUMENT seen P... @1:1) 

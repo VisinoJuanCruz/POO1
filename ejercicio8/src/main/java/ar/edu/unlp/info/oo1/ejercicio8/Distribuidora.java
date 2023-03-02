@@ -25,4 +25,20 @@ public class Distribuidora {
 		this.usuarios.add(newUsuario);
 	}
 	
+	public double consumoTotalActiva() {
+		double consumoTotalUltimoPeriodo = 0;
+		for(Usuario usuario: this.usuarios) {
+			consumoTotalUltimoPeriodo +=  usuario.getConsumos().get(usuario.getConsumos().size() - 1).getConsumoEnergiaActiva();
+		}
+		return consumoTotalUltimoPeriodo;
+	}
+	
+	public List<Factura> facturar(){
+		List<Factura> nuevasFacturas = new ArrayList<Factura>();
+		for(Usuario usuario: this.usuarios) {
+			nuevasFacturas.add(usuario.facturarEnBaseA(this.getPrecioKWh()));
+		}
+		return nuevasFacturas;
+	}
+	
 }

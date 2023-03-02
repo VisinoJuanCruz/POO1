@@ -7,6 +7,10 @@ public class Consumo {
 	private double consumoEnergiaActiva;
 	private double consumoEnergiaReactiva;
 	
+	public LocalDate getFecha() {
+		return this.fecha;
+	}
+	
 	public Consumo setConsumoEnergiaActiva(double newConsumoEnergiaActiva) {
 		this.consumoEnergiaActiva = newConsumoEnergiaActiva;
 		return this;

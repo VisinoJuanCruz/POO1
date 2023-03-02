@@ -39,4 +39,10 @@ public class Factura {
 	public double getDescuento() {
 		return this.descuento;
 	}
+	
+	public double montoTotal() {
+		return this.getMontoEnergiaActiva() - this.getDescuento();
+	}
+	
+	
 }

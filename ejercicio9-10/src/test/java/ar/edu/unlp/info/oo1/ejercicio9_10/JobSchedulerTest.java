@@ -30,25 +30,25 @@ public class JobSchedulerTest {
     } 
     
     private JobScheduler newFifoScheduler() {
-    	JobScheduler fifoScheduler = new JobScheduler();
+    	JobSchedulerFIFO fifoScheduler = new JobSchedulerFIFO();
     	fifoScheduler.setStrategy("FIFO");
     	return fifoScheduler;
     }
     
     private JobScheduler newLifoScheduler() {
-    	JobScheduler lifoScheduler = new JobScheduler();
+    	JobSchedulerLIFO lifoScheduler = new JobSchedulerLIFO();
     	lifoScheduler.setStrategy("LIFO");
     	return lifoScheduler;
     }
     
-    private JobScheduler newPriorityScheduler() {
-    	JobScheduler priorityScheduler = new JobScheduler();
+    private JobSchedulerHP newPriorityScheduler() {
+    	JobSchedulerHP priorityScheduler = new JobSchedulerHP();
     	priorityScheduler.setStrategy("HighestPriority");
     	return priorityScheduler;
     }
     
-    private JobScheduler newEffortScheduler() {
-    	JobScheduler effortScheduler = new JobScheduler();
+    private JobSchedulerME newEffortScheduler() {
+    	JobSchedulerME effortScheduler = new JobSchedulerME();
     	effortScheduler.setStrategy("MostEffort");
     	return effortScheduler;
     }

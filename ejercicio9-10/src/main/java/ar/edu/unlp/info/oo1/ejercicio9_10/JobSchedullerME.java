@@ -1,6 +1,6 @@
 package ar.edu.unlp.info.oo1.ejercicio9_10;
 
-public class JobSchedullerME extends JobScheduler{
+public class JobSchedulerME extends JobScheduler{
 
 	
 	public JobDescription next() {

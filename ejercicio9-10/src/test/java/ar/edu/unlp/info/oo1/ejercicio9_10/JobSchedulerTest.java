@@ -77,27 +77,30 @@ public class JobSchedulerTest {
     
     @Test
     void testNext() {
-    	JobScheduler scheduler;
+    	JobSchedulerFIFO schedulerFIFO;
     	
-    	scheduler = this.newFifoScheduler();
-    	this.scheduleJobsIn(scheduler);
-    	assertEquals(scheduler.next(), firstJob);
-    	assertEquals(scheduler.getJobs().size(), 3);
+    	schedulerFIFO = new JobSchedulerFIFO();
+    	this.scheduleJobsIn(schedulerFIFO);
+    	assertEquals(schedulerFIFO.next(), firstJob);
+    	assertEquals(schedulerFIFO.getJobs().size(), 3);
     	
-    	scheduler = this.newLifoScheduler();
-    	this.scheduleJobsIn(scheduler);
-    	assertEquals(scheduler.next(), lastJob);
-    	assertEquals(scheduler.getJobs().size(), 3);
+    	JobSchedulerLIFO schedulerLIFO;
+    	schedulerLIFO = new JobSchedulerLIFO();
+    	this.scheduleJobsIn(schedulerLIFO);
+    	assertEquals(schedulerLIFO.next(), lastJob);
+    	assertEquals(schedulerLIFO.getJobs().size(), 3);
 
-    	scheduler = this.newPriorityScheduler();
-    	this.scheduleJobsIn(scheduler);
-    	assertEquals(scheduler.next(), highestPriorityJob);
-    	assertEquals(scheduler.getJobs().size(), 3);
+    	JobSchedulerHP schedulerHP;
+    	schedulerHP = new JobSchedulerHP();
+    	this.scheduleJobsIn(schedulerHP);
+    	assertEquals(schedulerHP.next(), highestPriorityJob);
+    	assertEquals(schedulerHP.getJobs().size(), 3);
 
-    	scheduler = this.newEffortScheduler();
-    	this.scheduleJobsIn(scheduler);
-    	assertEquals(scheduler.next(), mostEffortJob);
-    	assertEquals(scheduler.getJobs().size(), 3);
+    	JobSchedulerME schedulerME;
+    	schedulerME = new JobSchedulerME();
+    	this.scheduleJobsIn(schedulerME);
+    	assertEquals(schedulerME.next(), mostEffortJob);
+    	assertEquals(schedulerME.getJobs().size(), 3);
 
     }
 }

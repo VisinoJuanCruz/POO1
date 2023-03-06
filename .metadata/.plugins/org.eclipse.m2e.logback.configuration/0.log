@@ -3187,3 +3187,65 @@
 2023-03-05 20:52:12,234 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-14/src/main/resources
 2023-03-05 20:52:12,235 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-03-05 20:52:12,235 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-14/src/test/resources
+2023-03-06 15:22:29,380 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-06 15:23:24,404 [ModalContext] WARN  o.e.m.c.i.embedder.EclipseLogger - The metadata /home/visino/.m2/repository/ar/edu/unlp/info/oo1/objetos-uno/0.0.1-SNAPSHOT/maven-metadata-objetos-uno-repo.xml is invalid: only whitespace content allowed before start tag and not P (position: START_DOCUMENT seen P... @1:1) 
+2023-03-06 15:23:24,412 [ModalContext] WARN  o.e.m.c.i.embedder.EclipseLogger - The metadata /home/visino/.m2/repository/ar/edu/unlp/info/oo1/objetos-uno/0.0.1-SNAPSHOT/maven-metadata-objetos-uno-repo.xml is invalid: only whitespace content allowed before start tag and not P (position: START_DOCUMENT seen P... @1:1) 
+2023-03-06 15:23:49,897 [Worker-2: Creating objetos-uno] WARN  o.e.m.c.i.embedder.EclipseLogger - The metadata /home/visino/.m2/repository/ar/edu/unlp/info/oo1/objetos-uno/0.0.1-SNAPSHOT/maven-metadata-objetos-uno-repo.xml is invalid: only whitespace content allowed before start tag and not P (position: START_DOCUMENT seen P... @1:1) 
+2023-03-06 15:23:49,903 [Worker-2: Creating objetos-uno] WARN  o.e.m.c.i.embedder.EclipseLogger - The metadata /home/visino/.m2/repository/ar/edu/unlp/info/oo1/objetos-uno/0.0.1-SNAPSHOT/maven-metadata-objetos-uno-repo.xml is invalid: only whitespace content allowed before start tag and not P (position: START_DOCUMENT seen P... @1:1) 
+2023-03-06 15:23:49,929 [Worker-2: Creating objetos-uno] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-15/pom.xml
+2023-03-06 15:23:50,628 [Worker-2: Creating objetos-uno] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ar.edu.unlp.info.oo1:ejercicio9-15:0.0.1-SNAPSHOT @ /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-15/pom.xml.
+2023-03-06 15:23:50,926 [Worker-2: Creating objetos-uno] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ejercicio9-15/src/main/java
+2023-03-06 15:23:50,928 [Worker-2: Creating objetos-uno] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ejercicio9-15/src/test/java
+2023-03-06 15:23:50,973 [Worker-2: Creating objetos-uno] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2023-03-06 15:23:51,731 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:51,731 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio2/src/main/resources
+2023-03-06 15:23:51,735 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:51,736 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio2/src/test/resources
+2023-03-06 15:23:51,932 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:51,932 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio5/src/main/resources
+2023-03-06 15:23:51,936 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:51,936 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio5/src/test/resources
+2023-03-06 15:23:52,202 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:52,203 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/main/resources
+2023-03-06 15:23:52,204 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:52,204 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio6/src/test/resources
+2023-03-06 15:23:52,398 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:52,399 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio7/src/main/resources
+2023-03-06 15:23:52,402 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:52,402 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio7/src/test/resources
+2023-03-06 15:23:52,702 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:52,702 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio8/src/main/resources
+2023-03-06 15:23:52,704 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:52,704 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio8/src/test/resources
+2023-03-06 15:23:52,866 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:52,866 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9/src/main/resources
+2023-03-06 15:23:52,867 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:52,868 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9/src/test/resources
+2023-03-06 15:23:53,168 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:53,168 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-10/src/main/resources
+2023-03-06 15:23:53,169 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:53,170 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-10/src/test/resources
+2023-03-06 15:23:53,465 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:53,465 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-11/src/main/resources
+2023-03-06 15:23:53,469 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:53,469 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-11/src/test/resources
+2023-03-06 15:23:53,638 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:53,639 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-12/src/main/resources
+2023-03-06 15:23:53,640 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:53,641 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-12/src/test/resources
+2023-03-06 15:23:53,802 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:53,802 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-13/src/main/resources
+2023-03-06 15:23:53,803 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:53,803 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-13/src/test/resources
+2023-03-06 15:23:54,066 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:54,067 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-14/src/main/resources
+2023-03-06 15:23:54,068 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:54,069 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-14/src/test/resources
+2023-03-06 15:23:54,306 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:54,307 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-15/src/main/resources
+2023-03-06 15:23:54,308 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:23:54,308 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-15/src/test/resources
+2023-03-06 15:24:02,354 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:24:02,354 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-15/src/main/resources
+2023-03-06 15:24:02,355 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-03-06 15:24:02,356 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/visino/VisinoJuanCruz/Facultad/Objetos1/ejercicio9-15/src/test/resources

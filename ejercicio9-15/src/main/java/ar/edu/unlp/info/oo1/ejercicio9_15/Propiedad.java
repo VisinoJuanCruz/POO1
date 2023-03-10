@@ -7,6 +7,7 @@ public class Propiedad {
 	private double precioPorNoche;
 	private String direccion;
 	private DateLapse fechaOcupada;
+	private Usuario dueño;
 	
 	public String getNombre() {
 		return this.nombre;
@@ -46,6 +47,14 @@ public class Propiedad {
 	
 	public void setFechaOcupada(DateLapse unaFechaOcupada) {
 		this.fechaOcupada = unaFechaOcupada;
+	}
+	
+	public Usuario getDueño() {
+		return this.dueño;
+	}
+	
+	public void setDueño(Usuario unDueño) {
+		this.dueño = unDueño;
 	}
 	
 }

@@ -7,6 +7,7 @@ public class OOBnB {
 	private List<Propiedad> propiedades;
 	private List<Usuario> usuarios;
 	
+	
 	public List<Propiedad> getPropiedades(){
 		return this.propiedades;
 	}

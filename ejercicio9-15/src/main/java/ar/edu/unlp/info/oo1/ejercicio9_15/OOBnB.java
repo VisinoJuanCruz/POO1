@@ -16,6 +16,7 @@ public class OOBnB {
 		return this.usuarios;
 	}
 	
+	
 	public void registrarPropiedad(Propiedad unaPropiedad) {
 		this.propiedades.add(unaPropiedad);
 		unaPropiedad.getDueño().agregarPropiedadAlquilada(unaPropiedad);
